@@ -10,6 +10,7 @@ public class C01_HelloWorld {
 
         System.out.println("J     a     V     a");
 
+
         /*
         bu alana yazilan
         kodlar
@@ -17,6 +18,7 @@ public class C01_HelloWorld {
         tarafindan
         calistirilmaz
          */
+
 
            }
 
