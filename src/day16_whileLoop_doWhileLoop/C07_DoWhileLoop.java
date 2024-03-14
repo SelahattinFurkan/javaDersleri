@@ -25,6 +25,5 @@ public class C07_DoWhileLoop {
         }
         System.out.println(tamKaremi);
 
-
     }
 }
