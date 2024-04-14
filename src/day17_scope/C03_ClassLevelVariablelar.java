@@ -27,7 +27,7 @@ public class C03_ClassLevelVariablelar {
            non-primitive data turleri ==> null
      */
 
-    int sayi1 ;
+    int sayi1;
     int sayi2 = 20;
 
     static String str1;
@@ -42,7 +42,7 @@ public class C03_ClassLevelVariablelar {
         //method2();
     }
 
-    public static void method1(){
+    public static void method1() {
         //System.out.println(sayi1);
         //System.out.println(sayi2);
         System.out.println(str1);
@@ -50,7 +50,7 @@ public class C03_ClassLevelVariablelar {
         //method2();
     }
 
-    public void method2(){
+    public void method2() {
         System.out.println(sayi1); // 0
         System.out.println(sayi2);
         System.out.println(str1); // null

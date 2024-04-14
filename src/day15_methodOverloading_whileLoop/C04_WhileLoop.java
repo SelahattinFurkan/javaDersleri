@@ -12,21 +12,19 @@ public class C04_WhileLoop {
         // sayilarin toplami 500 veya daha fazla olursa
         // sayi istemeyi durdurup, toplami yazdirin.
 
+       Scanner scanner = new Scanner(System.in);
+            int sayi = 0;
+            int toplam = 0;
 
-        Scanner scanner = new Scanner(System.in);
+            while (toplam < 500) {
 
-        int sayi = 0 ;
-        int toplam = 0 ;
+                System.out.println("Toplanmak uzere tam sayi giriniz...");
+                sayi = scanner.nextInt();
+                toplam += sayi;
 
-        while (toplam < 500){
+            }
 
-            System.out.println("Toplanmak uzere tam sayi giriniz...");
-            sayi = scanner.nextInt();
-            toplam += sayi;
-
+            System.out.println("Girdiginiz sayilarin toplami : " + toplam);
         }
-
-        System.out.println("Girdiginiz sayilarin toplami : " + toplam);
-
     }
-}
+

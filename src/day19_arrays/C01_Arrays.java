@@ -31,7 +31,5 @@ public class C01_Arrays {
 
             System.out.print(arr[i] + " ");
         }
-
     }
-
 }

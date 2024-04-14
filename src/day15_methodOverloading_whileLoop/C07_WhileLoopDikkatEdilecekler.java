@@ -38,7 +38,9 @@ public class C07_WhileLoopDikkatEdilecekler {
             System.out.println("Lutfen toplanmak uzere pozitif tam sayilar girin");
             sayi = scanner.nextInt();
 
-            if (sayi>0) toplam += sayi;
+
+            if (sayi>0)
+                toplam += sayi;
         }
 
         System.out.println(toplam);

@@ -25,6 +25,7 @@ public class C02_UsAlma {
 
             sonuc *= sayi ;
             hesaplanacakUs--;
+
         }
 
         System.out.println( sayi + " uzeri " + pozitifUs + " = " + sonuc);
