@@ -52,5 +52,6 @@ public class C01_ObjelerleStaticVariableKullanimi {
         System.out.println(hemsire3.personelIsmi); // Deger atanmadi
 
 
+
     }
 }
